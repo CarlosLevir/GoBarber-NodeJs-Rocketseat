@@ -45,7 +45,13 @@ yarn
 
 Then, you have to create your postgres database (Or another if you want) and fill your own fields in .env file.
 
-After database config you can start the server with:
+Now, you have to create tables with the command:
+
+```sh
+npx sequelize db:migrate
+```
+
+After database config, you can start the server with:
 
 ```sh
 yarn start
