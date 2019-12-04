@@ -15,7 +15,7 @@
     "nodemon": "^1.19.0",
     "nunjucks": "^3.2.0",
     "pg": "^7.10.0",
-    "sequelize": "^5.8.4"
+    "sequelize": "^5.15.1"
   },
   "scripts": {
     "start": "node src/index.js",
